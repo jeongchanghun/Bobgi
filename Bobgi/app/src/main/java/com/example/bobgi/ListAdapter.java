@@ -23,6 +23,10 @@ public class ListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
         this.arrayList = arraylist;
     }
 
+    public void setArrayList(ArrayList<Dto> arrayList){
+        this.arrayList = arrayList;
+    }
+
     @NonNull
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -52,12 +56,10 @@ public class ListAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
             });
         }
         public void bind(Dto item){
-            item.setTitle("학식");
-            item.setCate("양식");
-            item.setDate("2000-04-30");
-            item.setMember("1/6");
-            item.setProfile(R.drawable.ck);
-            item.setIscheked(true);
+            binding.title.setText("학식");
+            binding.category.setText("양식");
+            binding.date.setText("2000-04-30");
+            binding.member.setText("1/6");
         }
     }
 }

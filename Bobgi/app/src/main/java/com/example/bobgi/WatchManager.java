@@ -40,6 +40,14 @@ public class WatchManager {
     }
 
     public void initList() {
-        list.clear();
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
+        list.add(new Dto(R.drawable.ck, "양식", "학식", "2022-04-30", "1/6", true));
     }
 }
