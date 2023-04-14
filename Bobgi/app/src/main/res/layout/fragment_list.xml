@@ -13,6 +13,7 @@
         android:layout_height="60dp"
         android:fontFamily="@font/titlefont"
         android:background="#FD7E14"
+        android:textAlignment="center"
         android:gravity="center_vertical"
         android:textSize="40dp"
         android:textColor="@color/black"
