@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">MyPage</string>
+    <string name="데이터_추가">데이터 추가</string>
+    <string name="todo">TODO</string>
+    <string name="시청_목록">시청 목록</string>
+    <string name="TODO">TODO</string>
+    <string name="description">description</string>
+    <string name="전체선택">전체 선택</string>
+    <string name="n_n">0개 선택(전체 0개)</string>
+    <string name="삭제">삭제</string>
+    <string name="all_selected">전체 선택</string>
+    <string name="n_n_n_n">다양한 콘텐츠가 \n고객님을 기다리고 있어요. \n\n상상이 현실이 되는 새로운 세계로\n 지금 바로 떠나보세요!</string>
+    <string name="add_data">콘텐츠 보러가기</string>
+    <string name="delete">삭제하기</string>
+</resources>

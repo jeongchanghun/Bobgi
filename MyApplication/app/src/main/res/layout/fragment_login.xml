@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FD7E14">
+
+    <TextView
+        android:id="@+id/bobgi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="70sp"
+        android:text="Bob gi?"
+        android:textStyle="bold"
+        android:textColor="#F8EDCC"
+        android:fontFamily="@font/titlefont"
+        android:layout_marginBottom="300dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:id="@+id/idpw"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/bobgi">
+
+        <EditText
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColorHint="#F8EDCC"
+            android:hint="이메일을 입력하세요" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"/>
+
+        <EditText
+            android:textSize="25sp"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_marginStart="50dp"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:textColorHint="#F8EDCC"
+            android:hint="비밀번호를 입력하세요" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/white"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginEnd="50dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toBottomOf="@id/idpw">
+        <Button
+            android:id="@+id/login"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:text="로그인"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="#FFBF00"/>
+
+        <Button
+            android:id="@+id/ghldnjsrkdlq"
+            android:layout_weight="1"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textSize="20sp"
+            android:text="회원가입"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:backgroundTint="#FFBF00"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/titlefont"
+        android:textColor="#F8EDCC"
+        android:text="(주) 함식이들"
+        android:textSize="30sp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
