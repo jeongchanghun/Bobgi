@@ -78,7 +78,7 @@
             android:backgroundTint="#FFBF00"/>
 
         <Button
-            android:id="@+id/ghldnjsrkdlq"
+            android:id="@+id/signin"
             android:layout_weight="1"
             android:layout_width="150dp"
             android:layout_height="60dp"

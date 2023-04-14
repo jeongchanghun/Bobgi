@@ -43,26 +43,6 @@ public class WatchFragment extends Fragment {
         else{
             itemNotEmpty();
         }
-//        //페이징 기능
-//        binding.recyclerview.addOnScrollListener(new RecyclerView.OnScrollListener() {
-//            @Override
-//            public void onScrollStateChanged(@NonNull RecyclerView recyclerView, int newState) {
-//                super.onScrollStateChanged(recyclerView, newState);
-//            }
-//            @Override
-//            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
-//                super.onScrolled(recyclerView, dx, dy);
-//                int lastVisibleItemPosition = ((LinearLayoutManager)recyclerView.getLayoutManager()).findLastCompletelyVisibleItemPosition();
-//                int itemTotalCount = recyclerView.getAdapter().getItemCount() - 1;
-//
-//                if (lastVisibleItemPosition == viewModel.pageSize) {
-//                    Toast.makeText(getContext(), viewModel.page + "Last Position", Toast.LENGTH_SHORT).show();
-//                }
-//                else if(lastVisibleItemPosition == itemTotalCount) {
-//                    Toast.makeText(getContext(), "Last Position", Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
         // 시청목록 데이터 유지
         setViewModel();
         //layoutManager 설정

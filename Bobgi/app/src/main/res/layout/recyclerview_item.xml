@@ -15,7 +15,6 @@
         <ImageView
             android:layout_width="100dp"
             android:layout_height="100dp"
-            android:src="@drawable/account"
             android:layout_margin="10dp"/>
 
         <LinearLayout
@@ -27,7 +26,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="학식"
-                android:id="@+id/method"
+                android:id="@+id/title"
                 android:textColor="@color/black"
                 android:textStyle="bold"
                 android:layout_marginStart="10dp"
@@ -66,8 +65,7 @@
                 android:layout_height="30dp"
                 android:id="@+id/select"
                 android:layout_marginTop="10dp"
-                android:layout_marginEnd="10dp"
-                android:background="@drawable/star"/>
+                android:layout_marginEnd="10dp"/>
 
             <TextView
                 android:layout_width="wrap_content"
