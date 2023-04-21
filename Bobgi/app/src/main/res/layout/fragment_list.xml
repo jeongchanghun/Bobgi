@@ -14,7 +14,6 @@
         android:fontFamily="@font/titlefont"
         android:background="#FD7E14"
         android:textAlignment="center"
-        android:gravity="center_vertical"
         android:textSize="40dp"
         android:textColor="@color/black"
         android:text="Bob Gi?" />
@@ -65,6 +64,7 @@
             android:layout_height="match_parent"/>
 
         <ImageButton
+            android:id="@+id/mypage"
             android:layout_gravity="center"
             android:layout_marginEnd="10dp"
             android:layout_width="50dp"

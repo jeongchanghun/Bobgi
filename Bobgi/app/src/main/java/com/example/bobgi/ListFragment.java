@@ -38,6 +38,9 @@ public class ListFragment extends Fragment {
         binding.post.setOnClickListener(view -> {
             ((MainActivity) requireActivity()).moveTo(new PostFragment());
         });
+        binding.mypage.setOnClickListener(view -> {
+            ((MainActivity) requireActivity()).moveTo(new FragmentMypage());
+        });
         return binding.getRoot();
     }
 

@@ -4,50 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#FD7E14"
-    tools:context=".MypageFragment">
+    android:background="#FD7E14">
 
-    <LinearLayout
-        android:id="@+id/linear"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:background="#FD7E14"
-        app:layout_constraintBottom_toBottomOf="parent">
-
-        <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginStart="10dp"
-            android:backgroundTint="#FD7E14"
-            android:scaleType="fitXY"
-            android:src="@drawable/post" />
-
-        <View
-            android:layout_width="120dp"
-            android:layout_height="match_parent" />
-
-        <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:backgroundTint="#FD7E14"
-            android:scaleType="fitXY"
-            android:src="@drawable/ck" />
-
-        <View
-            android:layout_width="120dp"
-            android:layout_height="match_parent" />
-
-        <ImageButton
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:layout_gravity="center"
-            android:layout_marginEnd="10dp"
-            android:backgroundTint="#FD7E14"
-            android:scaleType="fitXY"
-            android:src="@drawable/mypage" />
-    </LinearLayout>
 
     <TextView
         android:id="@+id/textView15"
@@ -158,10 +116,11 @@
     <LinearLayout
         android:id="@+id/linearLayout3"
         android:layout_width="match_parent"
-        android:layout_height="298dp"
+        android:layout_height="0dp"
         android:layout_marginTop="10dp"
         android:background="#FFFFFF"
         android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView16">
