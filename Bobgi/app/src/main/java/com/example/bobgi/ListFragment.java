@@ -35,6 +35,9 @@ public class ListFragment extends Fragment {
         binding.recyclerview.setAdapter(adapter); //D
         adapter.notifyDataSetChanged(); //E
         binding.recyclerview.setLayoutManager(linearLayoutManager);
+        binding.post.setOnClickListener(view -> {
+            ((MainActivity) requireActivity()).moveTo(new PostFragment());
+        });
         return binding.getRoot();
     }
 
