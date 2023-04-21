@@ -14,6 +14,7 @@ import com.example.bobgi.databinding.FragmentRegistrationBinding;
 public class SignFragment extends Fragment {
     private FragmentRegistrationBinding binding;
 
+
     @Nullable
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
